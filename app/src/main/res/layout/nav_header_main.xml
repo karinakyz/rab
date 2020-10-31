@@ -46,7 +46,7 @@
 
         <Button
             android:id="@+id/normalBut"
-            android:layout_width="70dp"
+            android:layout_width="71dp"
             android:layout_height="match_parent"
             android:onClick="tnb"
             android:text="Нормальный"
@@ -54,8 +54,8 @@
 
         <Button
             android:id="@+id/embossBut"
-            android:layout_width="70dp"
-            android:layout_height="67dp"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
             android:layout_marginHorizontal="10dp"
             android:onClick="teb"
             android:text="Тень"
@@ -63,7 +63,7 @@
 
         <Button
             android:id="@+id/blurBut"
-            android:layout_width="72dp"
+            android:layout_width="71dp"
             android:layout_height="match_parent"
             android:onClick="tbb"
             android:text="Размытие"
@@ -76,22 +76,23 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Размер кисти" />
+
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="258dp"
         android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/smallPenBut"
-            android:layout_width="70dp"
-            android:layout_height="68dp"
+            android:layout_width="71dp"
+            android:layout_height="52dp"
             android:onClick="ssb"
             android:text="Маленький"
-            android:textSize="10sp" />
+            android:textSize="8sp" />
 
         <Button
             android:id="@+id/normalPenBut"
-            android:layout_width="70dp"
-            android:layout_height="68dp"
+            android:layout_width="71dp"
+            android:layout_height="52dp"
             android:layout_marginHorizontal="10dp"
             android:onClick="snb"
             android:text="Нормальный"
@@ -99,10 +100,11 @@
 
         <Button
             android:id="@+id/bigPenBut"
-            android:layout_width="74dp"
-            android:layout_height="match_parent"
+            android:layout_width="71dp"
+            android:layout_height="52dp"
             android:onClick="sbb"
-            android:text="Большой" />
+            android:text="Большой"
+            android:textSize="11sp" />
 
     </LinearLayout>
 
@@ -114,33 +116,36 @@
         android:text="Цвет кисти" />
 
     <LinearLayout
-        android:layout_width="265dp"
+        android:layout_width="246dp"
         android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/greenBut"
-            android:layout_width="70dp"
-            android:layout_height="63dp"
+            android:layout_width="71dp"
+            android:layout_height="52dp"
             android:onClick="cgb"
             android:text="Зелёный"
-            android:textSize="10sp" />
+            android:textSize="10sp"
+            app:backgroundTint="#4CAF50" />
 
         <Button
             android:id="@+id/redBut"
-            android:layout_width="72dp"
-            android:layout_height="match_parent"
+            android:layout_width="71dp"
+            android:layout_height="52dp"
             android:layout_marginHorizontal="10dp"
             android:onClick="crb"
             android:text="Красный"
-            android:textSize="10sp" />
+            android:textSize="10sp"
+            app:backgroundTint="#D81B1B" />
 
         <Button
             android:id="@+id/blackBut"
-            android:layout_width="65dp"
-            android:layout_height="match_parent"
+            android:layout_width="67dp"
+            android:layout_height="52dp"
             android:onClick="cbb"
             android:text="Чёрный"
-            android:textSize="10sp" />
+            android:textSize="10sp"
+            app:backgroundTint="#000000" />
     </LinearLayout>
 
 </LinearLayout>
